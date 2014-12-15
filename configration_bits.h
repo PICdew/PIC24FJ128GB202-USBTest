@@ -1,18 +1,12 @@
 /* 
- * File:   ConfigrationBits.h
+ * File:   configration_bits.h
  * Author: oyabunn
  *
- * Created on December 14, 2014, 11:10 AM
+ * Created on December 15, 2014, 6:42 PM
  */
 
-#ifndef CONFIGRATIONBITS_H
-#define	CONFIGRATIONBITS_H
-
-// PIC24FJ128GB202 Configuration Bit Settings
-
-// 'C' source line config statements
-
-#include <xc.h>
+#ifndef CONFIGRATION_BITS_H
+#define	CONFIGRATION_BITS_H
 
 // CONFIG4
 #pragma config DSWDTPS = DSWDTPS1F      // Deep Sleep Watchdog Timer Postscale Select bits (1:68719476736 (25.7 Days))
@@ -57,6 +51,5 @@
 #pragma config JTAGEN = OFF             // JTAG Port Enable (Disabled)
 
 
-
-#endif	/* CONFIGRATIONBITS_H */
+#endif	/* CONFIGRATION_BITS_H */
 
