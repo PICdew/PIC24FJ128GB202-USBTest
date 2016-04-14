@@ -60,7 +60,7 @@ bool USER_USB_CALLBACK_EVENT_HANDLER(USB_EVENT event, void *pdata, uint16_t size
             break;
 
         case EVENT_SOF:
-            UART1_send("Interrupt sof\n");
+            //UART1_send("Interrupt sof\n");
             break;
 
         case EVENT_SUSPEND:

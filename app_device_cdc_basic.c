@@ -24,33 +24,6 @@ void APP_DeviceCDCBasicDemoInitialize()
 
 void APP_DeviceCDCBasicDemoTasks()
 {
-    /* If the user has pressed the button associated with this demo, then we
-     * are going to send a "Button Pressed" message to the terminal.
-     */
-//    if(BUTTON_IsPressed(BUTTON_DEVICE_CDC_BASIC_DEMO) == true)
-//    {
-//        /* Make sure that we only send the message once per button press and
-//         * not continuously as the button is held.
-//         */
-//        if(buttonPressed == false)
-//        {
-//            /* Make sure that the CDC driver is ready for a transmission.
-//             */
-//            if(mUSBUSARTIsTxTrfReady() == true)
-//            {
-//                putrsUSBUSART(buttonMessage);
-//                buttonPressed = true;
-//            }
-//        }
-//    }
-//    else
-//    {
-//        /* If the button is released, we can then allow a new message to be
-//         * sent the next time the button is pressed.
-//         */
-//        buttonPressed = false;
-//    }
-
     /* Check to see if there is a transmission in progress, if there isn't, then
      * we can see about performing an echo response to data received.
      */
